@@ -21,7 +21,7 @@ class DoctorUserForm(forms.ModelForm):
 class DoctorForm(forms.ModelForm):
     class Meta:
         model=models.Doctor
-        fields=['address','mobile','department','status']
+        fields=['address','mobile','department','status','profile_pic']
 
 class PatientUserForm(forms.ModelForm):
     class Meta:
